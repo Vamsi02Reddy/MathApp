@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:background="@drawable/win">
+
+    <TextView
+        android:id="@+id/textViewCongo"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:fontFamily="@font/muli_extrabold"
+        android:text="Congratulations!!"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:text="Score : 0"
+        android:textSize="26sp"
+        android:fontFamily="@font/muli_extrabold"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonPlayAgain"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
+            android:background="@drawable/button_shape"
+            android:text="play again" />
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_shape"
+            android:text="exit" />
+
+    </LinearLayout>
+
+</LinearLayout>

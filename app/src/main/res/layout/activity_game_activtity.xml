@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tt"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    tools:context=".GameActivtity"
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Score:"
+            android:textSize="20sp"
+            app:drawableTint="@color/material_dynamic_neutral99"
+            app:fontFamily="@font/muli_extrabold" />
+
+        <TextView
+            android:id="@+id/textViewScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="20sp"
+            app:drawableTint="@color/material_dynamic_neutral99"
+            app:fontFamily="@font/muli_extrabold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Life:"
+            android:textSize="20sp"
+            app:drawableTint="@color/material_dynamic_neutral99"
+            app:fontFamily="@font/muli_extrabold" />
+
+        <TextView
+            android:id="@+id/textViewLife"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:textSize="20sp"
+            app:drawableTint="@color/material_dynamic_neutral99"
+            app:fontFamily="@font/muli_extrabold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time:"
+            android:textSize="20sp"
+            app:drawableTint="@color/material_dynamic_neutral99"
+            app:fontFamily="@font/muli_extrabold" />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="30"
+            android:textSize="20sp"
+            app:drawableTint="@color/material_dynamic_neutral99"
+            app:fontFamily="@font/muli_extrabold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/questionView"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:text="TextView"
+        android:background="#E3AA"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        app:fontFamily="sans-serif-black" />
+
+    <EditText
+        android:id="@+id/answerView"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:background="#EEF3F4F4"
+        android:ems="10"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:hint="Write your Answer here !!"
+        android:inputType="number"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:text="OK"
+
+            android:textColor="#EEF3F4F4"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/buttonNEXT"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
+            android:text="NEXT"
+            android:textColor="#EEF3F4F4"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+
+</LinearLayout>
